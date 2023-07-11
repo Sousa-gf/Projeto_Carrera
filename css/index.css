@@ -5,11 +5,18 @@ html{
 
 body{
     margin: auto;
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
 }
 
-section{
-    margin-left:auto;
-    width: 70%;
+.formulario{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
 }
 
 .titulo{
@@ -27,17 +34,31 @@ section{
 
 p{
     line-height: 30px;
-    margin-top: 50px;
+    margin-top: 10px;
     margin-bottom: 30px;
     text-align: center;
 }
 
-.formulario{
-    line-height: 25px;
-    margin-top: 50px;
-    text-align: center;
-    height: 200px;
-    width: 50%;
-    background-color: rgb(198, 38, 17);
-    border-radius: 5px;
+input[type="e-mail"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #45a049;
 }
