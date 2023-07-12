@@ -4,8 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro Chassi</title>
+    <link rel="stylesheet" href="/css/index.css">
 </head>
+<header>
+    <h1 class="titulo">Cadastro e Pesquisa de Chassis</h1>
+    <a href="leanding_page.html">Voltar</a>
+</header>
 <body>
-    
+    <input type="radio" name="radio" id="Cadastro"><p>Cadastro</p>
+    <input type="radio" name="radio" id="Consulta"><p>Consulta</p>
+    <div>
+        <p>Cadastro</p>
+        <form class="form">
+            <input type="text" id="Chassi" placeholder="Chassi" required>
+            <input type="text" id="Cliente" placeholder="Cliente" required>
+            <input type="text" id="Nº Pedido/Contrato" placeholder="Nº Pedido/Contrato" required>
+            <input type="number" id="Nº da NF" placeholder="Nº da NF" required>
+            <input type="date" id="Data de Faturamento" placeholder="Data de Faturamento" required>
+            <input type="text" id="Cor do veiculo" placeholder="Cor do veiculo" required>
+            <input type="text" id="Acessorios" placeholder="Acessorios" required>
+            <input type="text" id="PDI?" placeholder="PDI?" required>
+            <input type="text" id="Local de entrega" placeholder="Local de entrega" required>
+            <input type="text" id="UF de entrega" placeholder="UF de entrega" required>
+            <input type="text" id="CSS proxima" placeholder="CSS proxima" required>
+            <input type="text" id="UF proxima" placeholder="UF proxima" required>
+            <input type="number" id="Disdtancia KM" placeholder="Disdtancia KM" required>
+            <input type="date" id="Data de solicitação" placeholder="Data de solicitação" required>
+            <button type="submit" id="btnCadastrar">Cadastrar</button>
+        </form>
+    </div>
+    <div>
+        <p>Consulta</p>
+        <form class="form">
+            <input type="text" id="Chassi" placeholder="Chassi" disabled>
+            <input type="text" id="Cliente" placeholder="Cliente" disabled>
+            <input type="text" id="Nº Pedido/Contrato" placeholder="Nº Pedido/Contrato" disabled>
+            <input type="number" id="Nº da NF" placeholder="Nº da NF" disabled>
+            <input type="date" id="Data de Faturamento" placeholder="Data de Faturamento" disabled>
+            <input type="text" id="Cor do veiculo" placeholder="Cor do veiculo" disabled>
+            <input type="text" id="Acessorios" placeholder="Acessorios" disabled>
+            <input type="text" id="PDI?" placeholder="PDI?" disabled>
+            <input type="text" id="Local de entrega" placeholder="Local de entrega" disabled>
+            <input type="text" id="UF de entrega" placeholder="UF de entrega" disabled>
+            <input type="text" id="CSS proxima" placeholder="CSS proxima" disabled>
+            <input type="text" id="UF proxima" placeholder="UF proxima" disabled>
+            <input type="number" id="Disdtancia KM" placeholder="Disdtancia KM" disabled>
+            <input type="date" id="Data de solicitação" placeholder="Data de solicitação" disabled>
+            <button type="submit" id="btnAlterar" disabled>Alterar</button>
+            <button type="submit" id="btnExcluir" disabled>Excluir</button>
+        </form>
+    </div>
 </body>
+<footer>
+
+</footer>
 </html>
